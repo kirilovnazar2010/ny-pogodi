@@ -1,0 +1,109 @@
+.gg1{
+	overflow:hidden;
+	width:20%;
+	display:inline-block;
+	box-sizing:border-box;
+	min-height:1000px;
+	background-color:gray;
+	display:inline-block;
+	padding:20px 50px;
+}
+.gg2{
+	font-size:20px;
+	overflow:hidden;
+	width:80%;
+	background-color:BurlyWood;
+	display:inline-block;
+	margin-left:-5px;
+	box-sizing:border-box;
+	min-height:1000px;
+	padding:20px 50px;
+}
+body{
+	margin:0;
+}
+header{
+	background-image: url("gggg.jpg");
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	background-size: cover;
+	height:400px;
+}
+footer{
+	background-color:#964b00;
+	height:100px;
+	margin-top:-5px;
+}
+main{
+	min-height:1000px;
+}
+.name{
+	background-color:BurlyWood;
+	display:inline-block;
+	padding:5px;
+	margin:150px 800px;	
+}
+.sp2{
+	list-style-type:none;
+}
+.sp2 li{
+	padding-block:10px;
+}
+figure{
+	display:inline-block;
+	padding:5px 150px;
+	max-width:100px;
+	margin:auto;
+
+}
+figcaption{
+	width:790px;
+	background:green;
+	padding:3px;
+	text-align:center;
+	font-weight:bold;
+}
+img{
+	max-width:100px;
+	max-height:100px;
+}
+nav{
+	background-color:silver;
+	padding:50px;
+	text-align:center;
+}
+nav ul{
+	margin:0px;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	padding-inline:10px;
+}
+.name{
+	text-align:center;
+}
+a:link{
+color:green;
+}
+a:visited{
+color:red;
+}
+a:hover{
+color:yellow;
+}
+a:active{
+color:blue;
+}
+*{
+margin:0;
+}
+.i{
+color:yellow;
+text-align:center;
+}
+img{
+min-width:790px; 
+min-height:700px;
+}

@@ -1,0 +1,31 @@
+h1{
+text-align:center;
+}
+body{
+background-color:yellow;
+}
+.menu{
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:130px;
+	background:#FFFFFF;
+	left:100%;
+	top:0%;	
+}
+.menu a{
+	text-decoration:none;
+	color:green;
+	display:block;
+	padding:5px 10px;
+}
+.menu>li>a{
+	border:1px solid silver;
+	border-left:3px solid green;
+}
+.active{
+	background:yellow;
+}
+.menu>li:hover>a{
+	background:red;
+}
