@@ -119,3 +119,8 @@ img{
 min-width:790px; 
 min-height:700px;
 }
+.name:hover{
+background-color:red;
+transform:scew(45deg)
+
+}
