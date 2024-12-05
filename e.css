@@ -7,6 +7,10 @@
 	background-color:gray;
 	display:inline-block;
 	padding:20px 50px;
+
+}
+.poster {
+  background: linear-gradient(to right, rgb(0, 50, 0), rgb(0, 80, 0))
 }
 .gg2{
 	font-size:20px;
