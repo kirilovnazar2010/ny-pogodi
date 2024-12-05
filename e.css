@@ -54,7 +54,8 @@ main{
 	background-color:BurlyWood;
 	display:inline-block;
 	padding:5px;
-	margin:150px 800px;	
+	margin:150px 800px;
+	transition:transform 3s;
 }
 .sp2{
 	list-style-type:none;
@@ -121,6 +122,6 @@ min-height:700px;
 }
 .name:hover{
 background-color:red;
-transform:scew(45deg)
-
+transform:rotate(45deg)
+transform-origin:bottom-right;
 }
