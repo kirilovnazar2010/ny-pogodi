@@ -27,12 +27,7 @@
     text-decoration-line: none;
 }
 body{
-        background-image: url("gggg.jpg");
-	background-repeat: no-repeat;
-	background-position:center center;
-	background-attachment:fixed;
-	background-size: cover;
-	height:400px;
+        background:green;
 	margin:0;
 }
 header{
