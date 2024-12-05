@@ -27,7 +27,7 @@
     text-decoration-line: none;
 }
 body{
-        background: linear-gradient(to right, rgb(0, 50, 0), rgb(0, 80, 0));
+        background-color:green;
 	margin:0;
 }
 header{
