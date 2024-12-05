@@ -45,3 +45,11 @@ margin:78px 812px;
 .e{
 height:2000px;
 }
+body{
+        background-image: url("t.png");
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	background-size: cover;
+	margin:0;
+}
