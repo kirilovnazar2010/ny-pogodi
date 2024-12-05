@@ -63,4 +63,12 @@ background:purple;
 text-align:center;
 margin-left:40px;
 }
+body{
+   background-image: url("t.png");
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	background-size: cover;
+	margin:0;
+}
 
