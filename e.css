@@ -55,7 +55,7 @@ main{
 	display:inline-block;
 	padding:5px;
 	margin:150px 800px;
-	transition:transform 3s;
+	transition:transform 5s;
 }
 .sp2{
 	list-style-type:none;
