@@ -23,7 +23,11 @@
 	min-height:1000px;
 	padding:20px 50px;
 }
+.v {
+    text-decoration-line: none;
+}
 body{
+        background: linear-gradient(to right, rgb(0, 50, 0), rgb(0, 80, 0))
 	margin:0;
 }
 header{
