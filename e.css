@@ -124,4 +124,6 @@ min-height:700px;
 background-color:red;
 transform:rotate(45deg)
 transform-origin:bottom-right;
+border-color: white;
+color: green;
 }
