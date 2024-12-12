@@ -1,61 +1,79 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>
-Реєстрація
-</title>
-<link rel="stylesheet"  href="h.css">
-<link rel="shortcut icon"  href="r.png" type="image/png">
+    <title>
+        Реєстрація
+    </title>
+    <link rel="stylesheet" href="h.css">
+    <link rel="shortcut icon" href="r.png" type="image/png">
 </head>
 <body>
-<div class="f">
-<form action="n08826832@gmail.com" method="post">
-<div class="conteiner">
-<h3>Зареєструйся тута</h3>
-<p>
-<label for="first name">Імя</label>
-<input type="text" id="first name" placeholder="Введи тут своє імя">
-</p>
-<p>
-<label for="second name">Призвісько</label>
-<input type="text" id="second name" placeholder="Введи тут своє призвійсько">
-</p>
-<p>
-<label for="mail adress">Елетронна адреса</label>
-<input type="email" id="mail adress" placeholder="Введи тут свій еклетронний адрес">
-</p>
-<p>
-<label for="pass">Пароль</label>
-<input type="pasword" id="pass" placeholder="Введи тут свій пароль">
-</p>
-<label>Країна  проживання</label>
-<select> 
-<option>США </option>
-<option>Україна </option>
-<option>росія </option>
-<option> Польща</option>
-</select>
-<p>
-<label for="ph_number">Номер Телефона</label>
-<input type="tel" id="ph_number" placeholder="50-70-200">
-</p>
-<p class="s">
-<label> <input type="radio" name="s" value="Чол">Чол</label>
-<label> <input type="radio" name="s" value="Жін">Жін</label>
-</p>
-<p>
-<label for="news"> <input type="checkbox" id="news" name="name" >Я приймаю ваші умови</label>
-</p>
-<p class="submit">
-<input type="submit" value="Заповнти">
-</p>
-<p>Скиньте якщо вам щось неподобається</p>
-<p class="reset">
-<input type="reset" value="Скинути">
-</p>
-<p class="file">
-<input type="file" >
-</p>
-</div>
-</div>
+    <div class="f">
+        <form action="process_form.php" method="post">
+            <div class="conteiner">
+                <h3>Зареєструйся тута</h3>
+
+                <p>
+                    <label for="first_name">Ім'я</label>
+                    <input type="text" id="first_name" name="first_name" placeholder="Введи тут своє ім'я" required>
+                </p>
+
+                <p>
+                    <label for="second_name">Прізвище</label>
+                    <input type="text" id="second_name" name="second_name" placeholder="Введи тут своє прізвище" required>
+                </p>
+
+                <p>
+                    <label for="mail_address">Електронна адреса</label>
+                    <input type="email" id="mail_address" name="mail_address" placeholder="Введи тут свою електронну адресу" required>
+                </p>
+
+                <p>
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password" placeholder="Введи тут свій пароль" required>
+                </p>
+
+                <p>
+                    <label>Країна проживання</label>
+                    <select name="country">
+                        <option value="USA">США</option>
+                        <option value="Ukraine">Україна</option>
+                        <option value="Russia">Росія</option>
+                        <option value="Poland">Польща</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="phone_number">Номер телефона</label>
+                    <input type="tel" id="phone_number" name="phone_number" placeholder="50-70-200" required>
+                </p>
+
+                <p class="s">
+                    <label><input type="radio" name="gender" value="Male" required>Чоловік</label>
+                    <label><input type="radio" name="gender" value="Female">Жінка</label>
+                </p>
+
+                <p>
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms" required>Я приймаю ваші умови
+                    </label>
+                </p>
+
+                <p class="submit">
+                    <input type="submit" value="Заповнити">
+                </p>
+
+                <p class="reset">
+                    <input type="reset" value="Скинути">
+                </p>
+
+                <p class="file">
+                    <input type="file" name="file_upload">
+                </p>
+
+            </div>
+        </form>
+    </div>
 </body>
 </html>
+
