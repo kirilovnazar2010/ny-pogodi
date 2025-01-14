@@ -1,0 +1,30 @@
+<html >
+<head>
+<title>сайт</title>
+</head>
+<body>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $firstName = htmlspecialchars($_POST['first_name']);
+    $secondName = htmlspecialchars($_POST['second_name']);
+    $email = htmlspecialchars($_POST['mail_address']);
+    $password = htmlspecialchars($_POST['password']);
+    $country = htmlspecialchars($_POST['country']);
+    $phoneNumber = htmlspecialchars($_POST['phone_number']);
+    $gender = htmlspecialchars($_POST['gender']);
+    $termsAccepted = isset($_POST['terms']) ? 'Так' : 'Ні';
+
+    echo "<h2>Дані форми</h2>";
+    echo "<p>Ім'я: $firstName</p>";
+    echo "<p>Прізвище: $secondName</p>";
+    echo "<p>Електронна адреса: $email</p>";
+    echo "<p>Пароль: $password</p>";
+    echo "<p>Країна: $country</p>";
+    echo "<p>Номер телефона: $phoneNumber</p>";
+    echo "<p>Стать: $gender</p>";
+    echo "<p>Умови прийнято: $termsAccepted</p>";
+}
+?>
+
+</body>
+</html>
